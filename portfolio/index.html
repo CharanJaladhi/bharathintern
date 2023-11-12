@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:mintcream;
+            
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+           
+            color:cadetblue;
+            font-size: 1.05rem;
+        }
+        main hr{
+           border: 0;
+           background: #9c97f1;
+           height: 1.2px;
+           margin: 60px 84px; 
+
+        }
+        .left{
+            font-size: 1.5rem;
+            color: white;
+        } 
+        .firstSection {
+            
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin: 130px 0;
+            
+        }
+        .firstSection> div {
+            width: 30%;
+            
+        }
+        .leftSection{
+            
+            font-size: 2rem;
+           
+        }
+        .rightSection img{
+            width: 300px;
+            border-radius: 70%;
+            border: 5px solid black;
+           height:450px;
+           
+        }
+        
+        footer{
+            
+            height: 100px;
+            
+        }
+        .footer{
+            display:flex;
+            margin:123px 122px ;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer > div{
+            width: 223px;;
+        }
+        footer .text-center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Charan's Portfolio </div>
+            <div class="right">
+                <ul>
+                   <li> <a href="index.html">Home</a></li>
+                     <li> <a href="about.html">About</a></li>
+                     <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My name is <span class="purple"> Charan Jaladhi</span>
+                <div>I am an Engineering Student</div>
+                
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                 <img src="profile.jpg">
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/charan-jaladhi-452270249/"><img src="linkedin.png" style="width: 25px;"> </a></li>
+                    <li><a href="https://github.com/CharanJaladhi/"><img src="github.png" style="width: 25px;"></a></li>
+                    <li><a href="https://mail.google.com/mail/"> <img src="mail.png" style=" width: 45px;"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="text-center">
+            www.charanportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed=new Typed('#element',{
+            strings:['Majoring in CSE','Vignan University','Web developement Intern','Bharat Intern'],
+            typeSpeed:50,
+            loop:true,
+        });
+    </script>
+
+</body>
+</html>

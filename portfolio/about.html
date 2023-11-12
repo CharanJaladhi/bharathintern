@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f0f0f0;
+           
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+           
+            color:cadetblue;
+            font-size: 1.05rem;
+        }
+        .about-section{
+            background-color: #fff;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 5px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-section h2{
+            font-size: 24px;
+            color: cadetblue;
+            margin-bottom: 15px;
+        }
+        .about-section p{
+            font-size: 16px;
+            line-height: 1.5;
+            color:darkmagenta;
+        }
+        .profile-image{
+            max-width: 100%;
+            border-radius: 40%;
+            height:500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Charan's Portfolio </div>
+            <div class="right">
+                <ul>
+                   <li> <a href="index.html">Home</a></li>
+                     <li> <a href="about.html">About</a></li>
+                    <li> <a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="about-section">
+        <h2> About Me</h2>
+        <img class="profile-image" src="profile.jpg">
+        <p>Hi, I'm Charan Jaladhi, a passionate student pursuing B.tech at Vignan's University.</p>
+        <p>I have a strong intrest in CSE and I'm enthusiastic about learning new technologies.</p>
+        <p>In my free time I would listen songs,writes fiction stories and watch movies.</p>
+
+
+    </div> 
+</body>
+</html>

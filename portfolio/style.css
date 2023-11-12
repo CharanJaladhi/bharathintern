@@ -1,0 +1,54 @@
+.
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    color:lavender;
+}
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 30px;
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: 600;
+    flex:1;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color:azure;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: darkgray;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url('images(1).jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
